@@ -1,5 +1,5 @@
 {
-  "name": "sona-internal-app",
+  "name": "Performance-Booster-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -65,9 +65,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 30 chrome version",
+      "last 30 firefox version",
+      "last 30 safari version"
     ]
   },
   "devDependencies": {
