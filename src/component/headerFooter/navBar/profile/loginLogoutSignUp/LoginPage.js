@@ -114,7 +114,7 @@ function Login() {
     }
       
     } catch (error) {
-      alert(error)
+      console.log("Invalid Credentials")
       notifyFailed()
     }
   };
