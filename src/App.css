@@ -1,0 +1,271 @@
+* {
+    margin: 0vw;
+    padding: 0vw;
+    scroll-behavior: smooth;   
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background-color: lightgray;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 20px;
+
+  }
+
+  html {
+    overflow-y: overlay;
+  }
+  
+  *::selection {
+    background: gray;
+    color: white;
+  }
+  
+  /*************** NavBar  *********************/
+  
+
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  
+  
+  
+  
+  
+  
+  /*************** Body  *********************/
+  
+  
+  /****************************** Profile  ********************************/
+  
+  #bpCreation {
+    padding-top: 20px;
+    color: rgb(0, 0, 151);
+    /* border-bottom: 1px solid rgb(0, 0, 151); */
+  }
+  
+  #formID {
+    margin-top: 110px;
+  }
+  
+  #formID b {
+    color: rgb(91, 91, 91);
+  }
+  
+  #fmsSection {
+    min-height: 70vh;
+    margin-top: 110px;
+  }
+  
+  #helpTicketSection {
+    min-height: 70vh;
+    margin-top: 110px;
+  }
+  
+  #contactUsSection {
+    min-height: 90vh;
+    margin-top: 110px;
+  }
+
+/* div.carousel-caption h3{
+  overflow-x: hidden;
+} */
+  
+  .accordion-button {
+    font-size: 1.1vw;
+  }
+  .accordion {
+    font-size: 1vw;
+  }
+  
+  
+  #YourTicketTable{
+    margin-top: 110px;
+    min-height: 70vh;
+  }
+  /********************************** */
+  
+  @media only screen and (min-width: 990px) {
+    .marginID {
+      padding-left: 3%;
+      margin-top: -10px;
+    }
+  
+  
+  
+    .navbar {
+      font-size: 1vw;
+      font-weight: 400;
+    }
+  
+    .nav-link {
+      padding-left: 10px !important;
+      padding-right: 8px !important;
+      margin: 0px 15px;
+    }
+  
+    .nav-link:hover{
+     color: rgb(255, 158, 32);
+    }
+  
+    .navbar-nav .active{
+      border-bottom: 1px solid rgb(255, 255, 255);
+    }
+  
+    .navHeight {
+      max-height: 75px;
+    }
+  
+    #developerName p {
+      font-size: 0.8vw;
+    }
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .profileDiv {
+      display: flex;
+      margin-left: 77%;
+      margin-top: 10px;
+    }
+  
+    .piChart {
+      height: 20vh;
+    }
+    .barChart {
+      height: 15vh;
+    }
+  
+    .chartAndGraph {
+      min-height: 26vh !important;
+    }
+  
+    .pendingTaskSection {
+      min-height: 39vh;
+    }
+  
+    .btn1 {
+      font-size: 2.2vw;
+      width: 40vw;
+      height: 4vh;
+      border-radius: 1.5vw;
+    }
+  
+    .btn1:hover {
+      font-size: 2.25vw;
+    }
+  
+    td {
+      font-size: 2vw;
+    }
+    th {
+      font-size: 2vw;
+    }
+  
+    #copyright {
+      font-size: 1.5vw;
+    }
+  
+    .accordion-button {
+      font-size: 2.3vw;
+    }
+    .accordion {
+      font-size: 2vw;
+    }
+  
+    .nav-link {
+      padding: 0px !important;
+    }
+  
+    .marginInLi {
+      padding: 0px 0px !important;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .profileDiv {
+      display: flex;
+      margin-left: 65%;
+      margin-top: 10px;
+    }
+    #developerName p {
+      font-size: 2vw;
+    }
+  
+    .btn1 {
+      font-size: 2.5vw;
+      width: 45vw;
+      height: 4vh;
+      border-radius: 1.5vw;
+      margin: 3px 0px;
+    }
+    .btn1:hover {
+      font-size: 2.6vw;
+    }
+  
+    td {
+      font-size: 2.5vw;
+    }
+    th {
+      font-size: 2.5vw;
+    }
+  
+    .dTaskNameHeading {
+      padding-top: 20px;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: underline;
+    }
+  
+    #copyright {
+      font-size: 2vw;
+    }
+  
+    .accordion-button {
+      font-size: 3.5vw;
+    }
+  
+    .accordion {
+      font-size: 3vw;
+    }
+  }
+  
+  input:focus, input.form-control:focus, textarea:focus, textarea.form-control:focus, textarea:focus, select.form-select:focus  {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.form-select-color{
+  color:  red;
+}
+
+
+.top75{
+  margin-top: 65px;
+  position: relative;
+}
+
+.MuiTablePagination-selectLabel, .css-pdct74-MuiTablePagination-selectLabel, .MuiTablePagination-displayedRows, .css-levciy-MuiTablePagination-displayedRows { /* Class generated from your code */
+  display: none;
+}
+
+
+
+
