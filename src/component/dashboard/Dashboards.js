@@ -63,14 +63,15 @@ const Dashboards = () => {
         display: 'grid',
         gridTemplateColumns: { md: '1fr 2fr' },
         gap: 5,
-        boxSizing: 'content-box'
+        boxSizing: 'content-box',
+       
       }}
 
     >
-    <Paper elevation={10} style={{boxSizing: 'content-box', height: 'inherit'}}>
+    <Paper elevation={10} style={{boxSizing: 'content-box',  minHeight: '50vh'}}>
     <PiChart tableData={tableData} />
     </Paper>
-    <Paper elevation={10}  style={{boxSizing: 'content-box',height: 'inherit'}}>
+    <Paper elevation={10}  style={{boxSizing: 'content-box', minHeight: '50vh'}}>
     <BarChart  tableData={tableData} />
     </Paper>
     </Box>

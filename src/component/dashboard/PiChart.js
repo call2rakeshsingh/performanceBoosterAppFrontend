@@ -27,7 +27,8 @@ export default function PiChart({tableData}) {
       };
 
       const options = {
-        responsive: true,
+        // responsive: true,
+        maintainAspectRatio : false,
         plugins: {
         legend: {
                 position: 'bottom',
